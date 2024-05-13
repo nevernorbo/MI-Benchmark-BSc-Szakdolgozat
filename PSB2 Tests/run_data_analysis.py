@@ -72,6 +72,7 @@ def compute_statistics(problem_data, model_name):
 
     Args:
         problem_data (dict): A dictionary with problem names as keys and merged DataFrames as values.
+        model_name (str): Name of the model.
 
     Returns:
         DataFrame: A DataFrame containing the statistics for each problem.
