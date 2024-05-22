@@ -34,3 +34,7 @@ Szintén egy modell mappán belül pedig láthatjuk az eredményeket a `results_
 ### Statisztika
 
 A `PSB2 Tests/statistics` mappában elérhetőek.
+
+### Grafikonok/Vizualizációk
+
+A legfelső szinten található `graphs` folderben találhatók.

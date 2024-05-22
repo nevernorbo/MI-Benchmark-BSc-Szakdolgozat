@@ -40,6 +40,11 @@ def create_model_directories(models):
     Returns:
         list: A list of paths to the created model directories.
     """
+    if not os.path.exists("./models"):
+            os.makedirs("./models")
+    else:
+        print(f"The models directory already exists")
+    
     model_paths = []
 
     for model in models:
